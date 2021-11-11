@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="menu">
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+        <button class="hamburger"><img src="https://img.icons8.com/material-rounded/24/000000/menu--v3.png"/></button>
+    </nav>
+</header>
+<section id="about">
+    <h1>User1, Fullstack developer</h1>
+    <h2>About me</h2>
+    <img src="images/person.jpg" alt="person.jpg">
+    <p>My name User1, I am frontend developer.</p>
+</section>
+<section id="portfolio">
+    <h2 class="Title">Portfolio</h2>
+    <img src="images/project2.png" alt="Piano">
+    <br>Virtual Piano
+    <button class="open-window" onclick="hideWindow('flow');">Virtual Piano</button>
+    <div class="window">
+        <h1>Virtual Piano</h1>
+        I did this project when I was studying the frontend on HyperSkill.
+        <button class="open-window" onclick="hideWindow('none');">Close</button>
+    </div>
+</section>
+<section id="contacts">
+    <footer>
+        <h1>Contacts</h1>
+        You can contact me at <a href="User1@test.com" type="email">User1@test.com</a>
+    </footer>
+</section>
+
+</body>
+</html>
